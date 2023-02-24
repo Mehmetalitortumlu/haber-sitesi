@@ -55,12 +55,12 @@ function About() {
                     <div className='d-flex flex-column '>
                         <ul className='right-list mt-4'>
                             <li className='mt-1'>
-                                <i class="fa-brands fa-linkedin"></i>
+                                <i className="fa-brands fa-linkedin"></i>
                                 www.linkedin.com/in/mehmet-ali-tortumlu
                             </li>
-                            <li className='mt-1'><i class="fa-regular fa-envelope"></i>mehmetalitortumlu@gmail.com</li>
-                            <li className='mt-1'><i class="fa-solid fa-phone"></i>01234-5678-91011</li>
-                            <li className='mt-1'><i class="fa-brands fa-github"></i>https://github.com/Mehmetalitortumlu</li>
+                            <li className='mt-1'><i className="fa-regular fa-envelope"></i>mehmetalitortumlu@gmail.com</li>
+                            <li className='mt-1'><i className="fa-solid fa-phone"></i>01234-5678-91011</li>
+                            <li className='mt-1'><i className="fa-brands fa-github"></i>https://github.com/Mehmetalitortumlu</li>
                         </ul>
                     </div>
 

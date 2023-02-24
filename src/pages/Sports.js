@@ -40,7 +40,7 @@ function Sports() {
                         {!loading && <div className='mt-2'>
                             <h3 className='mt-5'>Popüler İşletme Haberleri</h3>
                             <div class="card mt-5 mb-3" style={{ width: "95%" }}>
-                                <img src={`${sports.articles[7].urlToImage != null ? sports.articles[7].urlToImage : "https://media.istockphoto.com/id/1197671817/tr/foto%C4%9Fraf/siyah-arka-plan-soyut-gri-ve-g%C3%BCm%C3%BC%C5%9F-renk-tasar%C4%B1m%C4%B1-ile-eski-duvar-doku-%C3%A7imento-kirli-gri.jpg?s=612x612&w=0&k=20&c=NBQwzWXb0p0w42mWfbwWWvO1DiNIzFn10xAmsCDpXgU="}`} class="card-img-top" alt="..." />
+                                <img src={`${sports.articles[7].urlToImage !== null ? sports.articles[7].urlToImage : "https://media.istockphoto.com/id/1197671817/tr/foto%C4%9Fraf/siyah-arka-plan-soyut-gri-ve-g%C3%BCm%C3%BC%C5%9F-renk-tasar%C4%B1m%C4%B1-ile-eski-duvar-doku-%C3%A7imento-kirli-gri.jpg?s=612x612&w=0&k=20&c=NBQwzWXb0p0w42mWfbwWWvO1DiNIzFn10xAmsCDpXgU="}`} class="card-img-top" alt="..." />
                                 <div class="card-body">
                                     <h5 class="card-title">{sports.articles[7].title}</h5>
                                     <p class="card-text fw-bold"> Kaynak : {sports.articles[7].source.name} </p>
@@ -48,7 +48,7 @@ function Sports() {
                                 </div>
                             </div>
                             <div class="card mb-3" style={{ width: "95%" }}>
-                                <img src={`${sports.articles[8].urlToImage != null ? sports.articles[8].urlToImage : "https://media.istockphoto.com/id/1197671817/tr/foto%C4%9Fraf/siyah-arka-plan-soyut-gri-ve-g%C3%BCm%C3%BC%C5%9F-renk-tasar%C4%B1m%C4%B1-ile-eski-duvar-doku-%C3%A7imento-kirli-gri.jpg?s=612x612&w=0&k=20&c=NBQwzWXb0p0w42mWfbwWWvO1DiNIzFn10xAmsCDpXgU="}`} class="card-img-top" alt="..." />
+                                <img src={`${sports.articles[8].urlToImage !== null ? sports.articles[8].urlToImage : "https://media.istockphoto.com/id/1197671817/tr/foto%C4%9Fraf/siyah-arka-plan-soyut-gri-ve-g%C3%BCm%C3%BC%C5%9F-renk-tasar%C4%B1m%C4%B1-ile-eski-duvar-doku-%C3%A7imento-kirli-gri.jpg?s=612x612&w=0&k=20&c=NBQwzWXb0p0w42mWfbwWWvO1DiNIzFn10xAmsCDpXgU="}`} class="card-img-top" alt="..." />
                                 <div class="card-body">
                                     <h5 class="card-title">{sports.articles[8].title}</h5>
                                     <p class="card-text fw-bold"> Kaynak : {sports.articles[8].source.name} </p>
@@ -56,7 +56,7 @@ function Sports() {
                                 </div>
                             </div>
                             <div class="card mb-3" style={{ width: "95%" }}>
-                                <img src={`${sports.articles[9].urlToImage != null ? sports.articles[9].urlToImage : "https://media.istockphoto.com/id/1197671817/tr/foto%C4%9Fraf/siyah-arka-plan-soyut-gri-ve-g%C3%BCm%C3%BC%C5%9F-renk-tasar%C4%B1m%C4%B1-ile-eski-duvar-doku-%C3%A7imento-kirli-gri.jpg?s=612x612&w=0&k=20&c=NBQwzWXb0p0w42mWfbwWWvO1DiNIzFn10xAmsCDpXgU="}`} class="card-img-top" alt="..." />
+                                <img src={`${sports.articles[9].urlToImage !== null ? sports.articles[9].urlToImage : "https://media.istockphoto.com/id/1197671817/tr/foto%C4%9Fraf/siyah-arka-plan-soyut-gri-ve-g%C3%BCm%C3%BC%C5%9F-renk-tasar%C4%B1m%C4%B1-ile-eski-duvar-doku-%C3%A7imento-kirli-gri.jpg?s=612x612&w=0&k=20&c=NBQwzWXb0p0w42mWfbwWWvO1DiNIzFn10xAmsCDpXgU="}`} class="card-img-top" alt="..." />
                                 <div class="card-body">
                                     <h5 class="card-title">{sports.articles[9].title}</h5>
                                     <p class="card-text fw-bold"> Kaynak : {sports.articles[9].source.name} </p>
@@ -64,7 +64,7 @@ function Sports() {
                                 </div>
                             </div>
                             <div class="card" style={{ width: "95%" }}>
-                                <img src={`${sports.articles[10].urlToImage != null ? sports.articles[10].urlToImage : "https://media.istockphoto.com/id/1197671817/tr/foto%C4%9Fraf/siyah-arka-plan-soyut-gri-ve-g%C3%BCm%C3%BC%C5%9F-renk-tasar%C4%B1m%C4%B1-ile-eski-duvar-doku-%C3%A7imento-kirli-gri.jpg?s=612x612&w=0&k=20&c=NBQwzWXb0p0w42mWfbwWWvO1DiNIzFn10xAmsCDpXgU="}`} class="card-img-top" alt="..." />
+                                <img src={`${sports.articles[10].urlToImage !== null ? sports.articles[10].urlToImage : "https://media.istockphoto.com/id/1197671817/tr/foto%C4%9Fraf/siyah-arka-plan-soyut-gri-ve-g%C3%BCm%C3%BC%C5%9F-renk-tasar%C4%B1m%C4%B1-ile-eski-duvar-doku-%C3%A7imento-kirli-gri.jpg?s=612x612&w=0&k=20&c=NBQwzWXb0p0w42mWfbwWWvO1DiNIzFn10xAmsCDpXgU="}`} class="card-img-top" alt="..." />
                                 <div class="card-body">
                                     <h5 class="card-title">{sports.articles[10].title}</h5>
                                     <p class="card-text fw-bold"> Kaynak : {sports.articles[10].source.name} </p>
@@ -82,7 +82,7 @@ function Sports() {
                                 <div className="card mb-3" style={{ maxWidth: "900px" }}>
                                     <div className="row g-0">
                                         <div className="col-md-4">
-                                            <img src={sports.urlToImage != null ? sports.urlToImage : "https://media.istockphoto.com/id/1197671817/tr/foto%C4%9Fraf/siyah-arka-plan-soyut-gri-ve-g%C3%BCm%C3%BC%C5%9F-renk-tasar%C4%B1m%C4%B1-ile-eski-duvar-doku-%C3%A7imento-kirli-gri.jpg?s=612x612&w=0&k=20&c=NBQwzWXb0p0w42mWfbwWWvO1DiNIzFn10xAmsCDpXgU="} className="img-fluid h-100 rounded-start" alt="..." />
+                                            <img src={sports.urlToImage !== null ? sports.urlToImage : "https://media.istockphoto.com/id/1197671817/tr/foto%C4%9Fraf/siyah-arka-plan-soyut-gri-ve-g%C3%BCm%C3%BC%C5%9F-renk-tasar%C4%B1m%C4%B1-ile-eski-duvar-doku-%C3%A7imento-kirli-gri.jpg?s=612x612&w=0&k=20&c=NBQwzWXb0p0w42mWfbwWWvO1DiNIzFn10xAmsCDpXgU="} className="img-fluid h-100 rounded-start" alt="..." />
                                         </div>
                                         <div className="col-md-8">
                                             <div className="card-body">
@@ -115,7 +115,7 @@ function Sports() {
                 <div className='text-center mt-5'>
                     <p className='mb-5'>Toplam sonuc : {filteredSports.length}
                         <br />
-                        Sayfa başına haber: {filteredSports.length != "" && sports.articles.length}
+                        Sayfa başına haber: {filteredSports.length !== "" && sports.articles.length}
                         <br /> Sayfa sayısı: {pagesNum} </p>
                 </div>
             }
