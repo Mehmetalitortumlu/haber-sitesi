@@ -35,41 +35,41 @@ function Tecnology() {
                             <span className="filterText">
                                 {filterText}
                             </span>
-                            <p className='text-center mt-5 fw-bold'> Toplam sonuc : {filteredTecnology.length} </p>
                         </p>
+                        <p className='text-center mt-5 fw-bold'> Toplam sonuc : {filteredTecnology.length} </p>
 
                         {!loading && <div className='mt-2'>
                             <h3 className='mt-5'>Popüler İşletme Haberleri</h3>
-                            <div class="card mt-5 mb-3" style={{ width: "95%" }}>
-                                <img src={`${tecnology.articles[7].urlToImage !== null ? tecnology.articles[7].urlToImage : "https://media.istockphoto.com/id/1197671817/tr/foto%C4%9Fraf/siyah-arka-plan-soyut-gri-ve-g%C3%BCm%C3%BC%C5%9F-renk-tasar%C4%B1m%C4%B1-ile-eski-duvar-doku-%C3%A7imento-kirli-gri.jpg?s=612x612&w=0&k=20&c=NBQwzWXb0p0w42mWfbwWWvO1DiNIzFn10xAmsCDpXgU="}`} class="card-img-top" alt="..." />
-                                <div class="card-body">
-                                    <h5 class="card-title">{tecnology.articles[7].title}</h5>
-                                    <p class="card-text fw-bold"> Kaynak : {tecnology.articles[7].source.name} </p>
-                                    <div className='d-flex justify-content-end'>  <a target="_blank" rel="noopener noreferrer" href={`${tecnology.articles[7].url}`} class="btn btn-success">Devamını oku...</a> </div>
+                            <div className="card mt-5 mb-3" style={{ width: "95%" }}>
+                                <img src={`${tecnology.articles[7].urlToImage !== null ? tecnology.articles[7].urlToImage : "https://media.istockphoto.com/id/1197671817/tr/foto%C4%9Fraf/siyah-arka-plan-soyut-gri-ve-g%C3%BCm%C3%BC%C5%9F-renk-tasar%C4%B1m%C4%B1-ile-eski-duvar-doku-%C3%A7imento-kirli-gri.jpg?s=612x612&w=0&k=20&c=NBQwzWXb0p0w42mWfbwWWvO1DiNIzFn10xAmsCDpXgU="}`} className="card-img-top" alt="..." />
+                                <div className="card-body">
+                                    <h5 className="card-title">{tecnology.articles[7].title}</h5>
+                                    <p className="card-text fw-bold"> Kaynak : {tecnology.articles[7].source.name} </p>
+                                    <div className='d-flex justify-content-end'>  <a target="_blank" rel="noopener noreferrer" href={`${tecnology.articles[7].url}`} className="btn btn-success">Devamını oku...</a> </div>
                                 </div>
                             </div>
-                            <div class="card mb-3" style={{ width: "95%" }}>
-                                <img src={`${tecnology.articles[8].urlToImage !== null ? tecnology.articles[8].urlToImage : "https://media.istockphoto.com/id/1197671817/tr/foto%C4%9Fraf/siyah-arka-plan-soyut-gri-ve-g%C3%BCm%C3%BC%C5%9F-renk-tasar%C4%B1m%C4%B1-ile-eski-duvar-doku-%C3%A7imento-kirli-gri.jpg?s=612x612&w=0&k=20&c=NBQwzWXb0p0w42mWfbwWWvO1DiNIzFn10xAmsCDpXgU="}`} class="card-img-top" alt="..." />
-                                <div class="card-body">
-                                    <h5 class="card-title">{tecnology.articles[8].title}</h5>
-                                    <p class="card-text fw-bold"> Kaynak : {tecnology.articles[8].source.name} </p>
-                                    <div className='d-flex justify-content-end'>  <a target="_blank" rel="noopener noreferrer" href={`${tecnology.articles[8].url}`} class="btn btn-success">Devamını oku...</a> </div>
+                            <div className="card mb-3" style={{ width: "95%" }}>
+                                <img src={`${tecnology.articles[8].urlToImage !== null ? tecnology.articles[8].urlToImage : "https://media.istockphoto.com/id/1197671817/tr/foto%C4%9Fraf/siyah-arka-plan-soyut-gri-ve-g%C3%BCm%C3%BC%C5%9F-renk-tasar%C4%B1m%C4%B1-ile-eski-duvar-doku-%C3%A7imento-kirli-gri.jpg?s=612x612&w=0&k=20&c=NBQwzWXb0p0w42mWfbwWWvO1DiNIzFn10xAmsCDpXgU="}`} className="card-img-top" alt="..." />
+                                <div className="card-body">
+                                    <h5 className="card-title">{tecnology.articles[8].title}</h5>
+                                    <p className="card-text fw-bold"> Kaynak : {tecnology.articles[8].source.name} </p>
+                                    <div className='d-flex justify-content-end'>  <a target="_blank" rel="noopener noreferrer" href={`${tecnology.articles[8].url}`} className="btn btn-success">Devamını oku...</a> </div>
                                 </div>
                             </div>
-                            <div class="card mb-3" style={{ width: "95%" }}>
-                                <img src={`${tecnology.articles[9].urlToImage !== null ? tecnology.articles[9].urlToImage : "https://media.istockphoto.com/id/1197671817/tr/foto%C4%9Fraf/siyah-arka-plan-soyut-gri-ve-g%C3%BCm%C3%BC%C5%9F-renk-tasar%C4%B1m%C4%B1-ile-eski-duvar-doku-%C3%A7imento-kirli-gri.jpg?s=612x612&w=0&k=20&c=NBQwzWXb0p0w42mWfbwWWvO1DiNIzFn10xAmsCDpXgU="}`} class="card-img-top" alt="..." />
-                                <div class="card-body">
-                                    <h5 class="card-title">{tecnology.articles[9].title}</h5>
-                                    <p class="card-text fw-bold"> Kaynak : {tecnology.articles[9].source.name} </p>
-                                    <div className='d-flex justify-content-end'>  <a target="_blank" rel="noopener noreferrer" href={`${tecnology.articles[9].url}`} class="btn btn-success">Devamını oku...</a> </div>
+                            <div className="card mb-3" style={{ width: "95%" }}>
+                                <img src={`${tecnology.articles[9].urlToImage !== null ? tecnology.articles[9].urlToImage : "https://media.istockphoto.com/id/1197671817/tr/foto%C4%9Fraf/siyah-arka-plan-soyut-gri-ve-g%C3%BCm%C3%BC%C5%9F-renk-tasar%C4%B1m%C4%B1-ile-eski-duvar-doku-%C3%A7imento-kirli-gri.jpg?s=612x612&w=0&k=20&c=NBQwzWXb0p0w42mWfbwWWvO1DiNIzFn10xAmsCDpXgU="}`} className="card-img-top" alt="..." />
+                                <div className="card-body">
+                                    <h5 className="card-title">{tecnology.articles[9].title}</h5>
+                                    <p className="card-text fw-bold"> Kaynak : {tecnology.articles[9].source.name} </p>
+                                    <div className='d-flex justify-content-end'>  <a target="_blank" rel="noopener noreferrer" href={`${tecnology.articles[9].url}`} className="btn btn-success">Devamını oku...</a> </div>
                                 </div>
                             </div>
-                            <div class="card" style={{ width: "95%" }}>
-                                <img src={`${tecnology.articles[10].urlToImage !== null ? tecnology.articles[10].urlToImage : "https://media.istockphoto.com/id/1197671817/tr/foto%C4%9Fraf/siyah-arka-plan-soyut-gri-ve-g%C3%BCm%C3%BC%C5%9F-renk-tasar%C4%B1m%C4%B1-ile-eski-duvar-doku-%C3%A7imento-kirli-gri.jpg?s=612x612&w=0&k=20&c=NBQwzWXb0p0w42mWfbwWWvO1DiNIzFn10xAmsCDpXgU="}`} class="card-img-top" alt="..." />
-                                <div class="card-body">
-                                    <h5 class="card-title">{tecnology.articles[10].title}</h5>
-                                    <p class="card-text fw-bold"> Kaynak : {tecnology.articles[10].source.name} </p>
-                                    <div className='d-flex justify-content-end'>  <a target="_blank" rel="noopener noreferrer" href={`${tecnology.articles[10].url}`} class="btn btn-success">Devamını oku...</a> </div>
+                            <div className="card" style={{ width: "95%" }}>
+                                <img src={`${tecnology.articles[10].urlToImage !== null ? tecnology.articles[10].urlToImage : "https://media.istockphoto.com/id/1197671817/tr/foto%C4%9Fraf/siyah-arka-plan-soyut-gri-ve-g%C3%BCm%C3%BC%C5%9F-renk-tasar%C4%B1m%C4%B1-ile-eski-duvar-doku-%C3%A7imento-kirli-gri.jpg?s=612x612&w=0&k=20&c=NBQwzWXb0p0w42mWfbwWWvO1DiNIzFn10xAmsCDpXgU="}`} className="card-img-top" alt="..." />
+                                <div className="card-body">
+                                    <h5 className="card-title">{tecnology.articles[10].title}</h5>
+                                    <p className="card-text fw-bold"> Kaynak : {tecnology.articles[10].source.name} </p>
+                                    <div className='d-flex justify-content-end'>  <a target="_blank" rel="noopener noreferrer" href={`${tecnology.articles[10].url}`} className="btn btn-success">Devamını oku...</a> </div>
                                 </div>
                             </div>
                         </div>}
@@ -89,7 +89,7 @@ function Tecnology() {
                                             <div className="card-body">
                                                 <h5 className="card-title">{tecnology.title}</h5>
                                                 <p className="card-text">{tecnology.content}</p>
-                                                <p class="card-text fw-bold"> Kaynak : {tecnology.source.name} </p>
+                                                <p className="card-text fw-bold"> Kaynak : {tecnology.source.name} </p>
                                                 <p className="card-text">
                                                     <small className="text">
                                                         Yayınlanma tarihi :{tecnology.publishedAt}

@@ -7,7 +7,6 @@ function About() {
 
                 <div className="col-12 col-md-4 background ">
 
-
                     <div className='d-flex flex-column '>
 
                         <div className='d-flex flex-column align-items-center'>
