@@ -1,38 +1,260 @@
-.App {
-  text-align: center;
+/* Navbar start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.dark {
+  background-color: gray !important;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.light {
+  background: white !important;
+  min-height: 100vh;
+}
+
+.nav-item {
+  font-size: 1.4rem;
+}
+
+.dark .navbar-div {
+  border-bottom: 2px solid white;
+}
+
+.light .navbar-div {
+  border-bottom: 2px solid black;
+}
+
+
+.navbar-expand-lg {
+  width: 86.8% !important;
+  border-radius: 10px;
+}
+
+.list {
   color: white;
+  margin-left: 15px;
+  list-style: none;
 }
 
-.App-link {
-  color: #61dafb;
+
+.list:nth-child(1) {
+  font-size: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.light .list:nth-child(1) {
+  font-size: 2rem;
+  color: black;
+}
+
+
+.list:nth-child(1):hover {
+  font-size: 2rem;
+  color: blue;
+}
+
+.list:nth-child(2) {
+  font-size: 2rem;
+}
+
+.light .list:nth-child(2) {
+  font-size: 2rem;
+  color: black;
+}
+
+.list:nth-child(2):hover {
+  font-size: 2rem;
+  color: red;
+}
+
+.list:nth-child(3) {
+  font-size: 2rem;
+}
+
+.light .list:nth-child(3) {
+  font-size: 2rem;
+  color: black;
+}
+
+.list:nth-child(3):hover {
+  font-size: 2rem;
+  color: blue;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-expand-lg {
+    width: 100% !important;
+    border-radius: 10px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+/* Header start */
+.header {
+  border-radius: 10px !important;
+  width: 86.8% !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    width: 100% !important;
+    border-radius: 10px;
   }
+}
+
+.dark .header-link {
+  color: white;
+  font-size: 1.1rem;
+  background: none !important;
+}
+
+.light .header-link {
+  color: black !important;
+  font-size: 1.1rem;
+  background: none !important;
+}
+
+.dark .header-link:hover {
+  color: white !important;
+}
+
+.dark .header-link:focus {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.light .header-link:hover {
+  color: black !important;
+}
+
+.light .header-link:focus {
+  color: black !important;
+  border-bottom: 2px solid black !important;
+}
+
+
+/* Home start */
+
+.home-img {
+  width: 100%;
+  height: 400px;
+}
+
+.btn-success .card-link {
+  color: black;
+  text-decoration: none;
+}
+
+.btn-success .card-link:hover {
+  border-bottom: 1px solid black;
+  font-size: 1.1rem;
+}
+
+.home-h-color {
+  color: white;
+  font-weight: bold;
+}
+
+.home-h-1-color {
+  color: black;
+  font-weight: bold;
+}
+
+
+.filterText {
+  border-bottom: 2px solid black;
+  font-size: 1.2rem;
+}
+
+
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+
+.dark * {
+  color: whitesmoke;
+}
+
+.dark .card {
+  background-color: gray;
+  border: 2px solid white
+}
+
+
+
+
+/* About start */
+
+.about {
+  width: 86.9% !important;
+}
+
+.img {
+  width: 180px;
+  border-radius: 100%;
+}
+
+.p-text {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.text {
+  color: black;
+  font-weight: bold;
+  padding: 7px;
+  border-bottom: 3px solid black;
+}
+
+.background {
+  background-color: #4d96eb;
+  min-height: 100vh;
+}
+
+.text-center {
+  color: black;
+  font-weight: 400;
+}
+
+.technologies>ul {
+  list-style: circle;
+}
+
+.technologies>ul>li {
+  color: black;
+}
+
+
+.right-list>li {
+  list-style: none;
+  color: black;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.right-list>li>i {
+  color: blue;
+  padding: 5px;
+}
+
+.hobies>ul{
+  margin-left: 25px;
+}
+
+.hobies>ul>li {
+  color: black;
+}
+
+span{
+  color: black !important;
 }
