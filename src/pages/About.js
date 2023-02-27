@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
     return (
         <div className="container about mt-5 ">
-            <div className="row d-flex flex-row justify-content-center">
+            <div className="row d-flex flex-row justify-content-center ">
 
                 <div className="col-12 col-md-4 background ">
 

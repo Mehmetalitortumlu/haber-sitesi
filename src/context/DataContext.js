@@ -23,7 +23,7 @@ export const DataContextProvider = ({ children }) => {
     }
 
     const decreasePagesNum = () => {
-        if (pagesNum != 1) {
+        if (pagesNum !== 1) {
             setPagesNum(pagesNum - 1)
         }
     }
@@ -32,9 +32,9 @@ export const DataContextProvider = ({ children }) => {
     useEffect(() => {
         (async () => {
             try {
-                const { data: data } = await axios(`https://newsapi.org/v2/top-headlines?country=tr&apiKey=862ee40001a64c06bbfcc5f363518825`);
+                const { data: data } = await axios(`https://newsapi.org/v2/everything?language=tr&q=general&apiKey=862ee40001a64c06bbfcc5f363518825`);
 
-                const { data: business } = await axios(`https://newsapi.org/v2/top-headlines?country=tr&category=business&apiKey=862ee40001a64c06bbfcc5f363518825`);
+                const { data: business } = await axios(`https://newsapi.org/v2/everything?language=tr&q=business&apiKey=862ee40001a64c06bbfcc5f363518825`);
 
                 const { data: entertainment } = await axios(`https://newsapi.org/v2/top-headlines?country=tr&category=entertainment&apiKey=862ee40001a64c06bbfcc5f363518825`);
 
@@ -86,11 +86,11 @@ export const DataContextProvider = ({ children }) => {
     const filteredSports = sports != "" && sports.articles.filter((item) => {
         return item.title.toLowerCase().includes(filterText.toLowerCase());
     });
-    
+
     const filteredTecnology = tecnology != "" && tecnology.articles.filter((item) => {
         return item.title.toLowerCase().includes(filterText.toLowerCase());
     });
-    
+
 
 
     const values = {
