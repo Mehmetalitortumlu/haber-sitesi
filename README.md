@@ -1,3 +1,11 @@
+# NEWS API
+
+![](https://github.com/Mehmetalitortumlu/haber-sitesi/blob/master/public/img/2.png)
+![](https://github.com/Mehmetalitortumlu/haber-sitesi/blob/master/public/img/3.png)
+![](https://github.com/Mehmetalitortumlu/haber-sitesi/blob/master/public/img/4.png)
+![](https://github.com/Mehmetalitortumlu/haber-sitesi/blob/master/public/img/5.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
