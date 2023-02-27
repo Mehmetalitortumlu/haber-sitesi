@@ -15,7 +15,6 @@ export const DataContextProvider = ({ children }) => {
     const [pagesNum, setPagesNum] = useState(1);
 
 
-
     const increasePagesNum = () => {
         if (pagesNum <= 6) {
             setPagesNum(pagesNum + 1)
@@ -63,31 +62,31 @@ export const DataContextProvider = ({ children }) => {
 
     //Filtered
     const [filterText, setFilterText] = useState("");
-    const filteredBusiness = business != "" && business.articles.filter((item) => {
+    const filteredBusiness = business.length !== 0 && business.articles.filter((item) => {
         return item.title.toLowerCase().includes(filterText.toLowerCase());
     });
 
-    const filteredentertainment = entertainment != "" && entertainment.articles.filter((item) => {
+    const filteredentertainment = entertainment.length !== 0 && entertainment.articles.filter((item) => {
         return item.title.toLowerCase().includes(filterText.toLowerCase());
     });
 
-    const filteredGeneral = general != "" && general.articles.filter((item) => {
+    const filteredGeneral = general.length !== 0 && general.articles.filter((item) => {
         return item.title.toLowerCase().includes(filterText.toLowerCase());
     });
 
-    const filteredHealty = healty != "" && healty.articles.filter((item) => {
+    const filteredHealty = healty.length !== 0 && healty.articles.filter((item) => {
         return item.title.toLowerCase().includes(filterText.toLowerCase());
     });
 
-    const filteredScience = science != "" && science.articles.filter((item) => {
+    const filteredScience = science.length !== 0 && science.articles.filter((item) => {
         return item.title.toLowerCase().includes(filterText.toLowerCase());
     });
 
-    const filteredSports = sports != "" && sports.articles.filter((item) => {
+    const filteredSports = sports.length !== 0 && sports.articles.filter((item) => {
         return item.title.toLowerCase().includes(filterText.toLowerCase());
     });
 
-    const filteredTecnology = tecnology != "" && tecnology.articles.filter((item) => {
+    const filteredTecnology = tecnology.length !== 0 && tecnology.articles.filter((item) => {
         return item.title.toLowerCase().includes(filterText.toLowerCase());
     });
 
